@@ -126,3 +126,54 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+.store {
+  background-color: #f0f0f0;
+  padding: 2em;
+  text-align: center;
+}
+
+.store h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.product {
+  background: white;
+  margin: 1em auto;
+  padding: 1.5em;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  max-width: 600px;
+}
+
+.product h3 {
+  margin-bottom: 1em;
+  color: #005577;
+}
+
+.product ul {
+  list-style: none;
+  padding: 0;
+}
+
+.product li {
+  margin: 0.5em 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.1em;
+}
+
+.product button {
+  background-color: #00aaff;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.product button:hover {
+  background-color: #008ecc;
+}
