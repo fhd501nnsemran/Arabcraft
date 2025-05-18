@@ -182,7 +182,7 @@ footer a:hover {
   background-color: #2900cd;
   text-align: center;
 }
-
+سسسسسسسسسسسسسسس
 .product {
   margin-bottom: 2rem;
 }
@@ -232,4 +232,64 @@ button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.ip-port {
+  background-color: #1a1a2e;
+  padding: 40px 20px;
+  margin: 40px auto;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 170, 255, 0.2);
+  text-align: right;
+}
+
+.ip-port h2 {
+  color: #00aaff;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.ip-port form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  margin-bottom: 5px;
+  color: #ccc;
+  font-weight: bold;
+}
+
+.input-group input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #333;
+  color: #fff;
+}
+
+.input-group input::placeholder {
+  color: #888;
+}
+
+.ip-port button {
+  background-color: #00aaff;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ip-port button:hover {
+  background-color: #0077aa;
 }
