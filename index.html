@@ -1,140 +1,45 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="ar">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ArabCraft</title>
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Cairo', sans-serif;
-      margin: 0;
-      background-color: #f4f9ff;
-      color: #003366;
-    }
-
-    header {
-      background-color: #0066cc;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-
-    nav a {
-      color: white;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    .hero {
-      background-color: #e0f0ff;
-      padding: 50px 20px;
-      text-align: center;
-    }
-
-    .hero .btn {
-      display: inline-block;
-      background-color: #0066cc;
-      color: white;
-      padding: 10px 20px;
-      margin-top: 20px;
-      text-decoration: none;
-      border-radius: 5px;
-    }
-
-    .features {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      padding: 40px 20px;
-      gap: 20px;
-    }
-
-    .feature {
-      background-color: white;
-      border: 2px solid #0066cc;
-      border-radius: 10px;
-      padding: 20px;
-      width: 300px;
-      text-align: center;
-    }
-
-    .store {
-      padding: 40px 20px;
-      background-color: #dfefff;
-      text-align: center;
-    }
-
-    .product {
-      background-color: white;
-      border: 1px solid #ccc;
-      border-radius: 10px;
-      padding: 20px;
-      margin-bottom: 30px;
-      max-width: 600px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    .product ul {
-      list-style: none;
-      padding: 0;
-    }
-
-    .product li {
-      margin: 15px 0;
-    }
-
-    .btn {
-      background-color: #0066cc;
-      color: white;
-      padding: 8px 15px;
-      text-decoration: none;
-      border-radius: 5px;
-      display: inline-block;
-      margin-top: 10px;
-    }
-
-    footer {
-      background-color: #003366;
-      color: white;
-      text-align: center;
-      padding: 15px;
-    }
-  </style>
+  <title>ArabCraft | الصفحة الرئيسية</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 
   <header>
     <h1>ArabCraft</h1>
     <nav>
-      <a href="#">الرئيسية</a>
-      <a href="#">السيرفر</a>
+      <a href="#hero">الرئيسية</a>
+      <a href="#features">المميزات</a>
       <a href="#store">المتجر</a>
+      <a href="#events">الفعاليات</a>
+      <a href="#players">اللاعبين المميزين</a>
+      <a href="#gallery">المعرض</a>
       <a href="https://discord.gg/s9z8pejX" target="_blank">الديسكورد</a>
     </nav>
   </header>
 
   <main>
-    <section class="hero">
+    <section class="hero" id="hero">
       <h2>مرحباً بك في ArabCraft</h2>
-      <p>سيرفر ماينكرافت عربي يقدم تجربة لعب احترافية وآمنة.</p>
-      <a href="https://discord.gg/s9z8pejX" class="btn" target="_blank">انضم إلى الديسكورد</a>
+      <p>أفضل سيرفر ماينكرافت عربي يقدم تجربة لعب احترافية وممتعة.</p>
+      <a href="https://discord.gg/s9z8pejX" target="_blank" class="btn">انضم إلى الديسكورد</a>
     </section>
 
-    <section class="features">
+    <section class="features" id="features">
       <div class="feature">
-        <h3>مجتمع عربي</h3>
-        <p>بيئة ممتعة وآمنة للاعبين العرب.</p>
+        <h3>سيرفر ثابت وسريع</h3>
+        <p>استمتع بأداء عالي بدون لاج.</p>
       </div>
       <div class="feature">
-        <h3>سيرفر مستقر</h3>
-        <p>تجربة لعب بدون لاج.</p>
+        <h3>مجتمع محترم</h3>
+        <p>لاعبون عرب من مختلف الدول، بيئة آمنة وودية.</p>
       </div>
       <div class="feature">
-        <h3>فعاليات مستمرة</h3>
-        <p>مسابقات وجوائز يومية.</p>
+        <h3>أحداث ومسابقات</h3>
+        <p>جوائز، فعاليات يومية، وتحديات أسبوعية.</p>
       </div>
     </section>
 
@@ -145,42 +50,69 @@
         <h3>شراء عملات داخل اللعبة</h3>
         <ul>
           <li>
-            <strong>1,000,000 عملة</strong><br>
-            <a href="https://wa.me/966549227425?text=أرغب%20في%20شراء%201,000,000%20عملة" class="btn" target="_blank">شراء الآن</a>
+            <strong>1,000,000 عملة</strong>
+            <a href="https://wa.me/966549227425?text=أرغب%20في%20شراء%201,000,000%20عملة" class="btn" target="_blank">شراء عبر واتساب</a>
           </li>
           <li>
-            <strong>2,000,000 عملة</strong><br>
-            <a href="https://wa.me/966549227425?text=أرغب%20في%20شراء%202,000,000%20عملة" class="btn" target="_blank">شراء الآن</a>
+            <strong>2,000,000 عملة</strong>
+            <a href="https://wa.me/966549227425?text=أرغب%20في%20شراء%202,000,000%20عملة" class="btn" target="_blank">شراء عبر واتساب</a>
           </li>
           <li>
-            <strong>3,000,000 عملة</strong><br>
-            <a href="https://wa.me/966549227425?text=أرغب%20في%20شراء%203,000,000%20عملة" class="btn" target="_blank">شراء الآن</a>
+            <strong>3,000,000 عملة</strong>
+            <a href="https://wa.me/966549227425?text=أرغب%20في%20شراء%203,000,000%20عملة" class="btn" target="_blank">شراء عبر واتساب</a>
           </li>
         </ul>
       </div>
 
       <div class="product">
-        <h3>شراء رتب VIP</h3>
+        <h3>شراء رتب</h3>
         <ul>
           <li>
-            <strong>VIP</strong><br>
-            <a href="https://wa.me/966549227425?text=أرغب%20في%20شراء%20رتبة%20VIP" class="btn" target="_blank">شراء الآن</a>
+            <strong>رتبة VIP</strong>
+            <a href="https://wa.me/966549227425?text=أرغب%20في%20شراء%20رتبة%20VIP" class="btn" target="_blank">شراء عبر واتساب</a>
           </li>
           <li>
-            <strong>VIP+</strong><br>
-            <a href="https://wa.me/966549227425?text=أرغب%20في%20شراء%20رتبة%20VIP+" class="btn" target="_blank">شراء الآن</a>
+            <strong>رتبة MVP</strong>
+            <a href="https://wa.me/966549227425?text=أرغب%20في%20شراء%20رتبة%20MVP" class="btn" target="_blank">شراء عبر واتساب</a>
           </li>
           <li>
-            <strong>LEGEND</strong><br>
-            <a href="https://wa.me/966549227425?text=أرغب%20في%20شراء%20رتبة%20LEGEND" class="btn" target="_blank">شراء الآن</a>
+            <strong>رتبة LEGEND</strong>
+            <a href="https://wa.me/966549227425?text=أرغب%20في%20شراء%20رتبة%20LEGEND" class="btn" target="_blank">شراء عبر واتساب</a>
           </li>
         </ul>
+      </div>
+    </section>
+
+    <section class="events" id="events">
+      <h2>الفعاليات القادمة</h2>
+      <ul>
+        <li>🏆 بطولة PvP - الجمعة القادمة</li>
+        <li>🧱 مسابقة بناء - السبت</li>
+        <li>🎁 جوائز عشوائية - الأحد</li>
+      </ul>
+    </section>
+
+    <section class="players" id="players">
+      <h2>اللاعبين المميزين</h2>
+      <ul>
+        <li>⚡️ XxAhmedPro</li>
+        <li>🔥 SaraCraft</li>
+        <li>🛡 iLegendKing</li>
+      </ul>
+    </section>
+
+    <section class="gallery" id="gallery">
+      <h2>معرض الصور</h2>
+      <div class="images">
+        <img src="img/server1.jpg" alt="صورة من السيرفر">
+        <img src="img/server2.jpg" alt="فعالية بناء">
+        <img src="img/server3.jpg" alt="بطولة PvP">
       </div>
     </section>
   </main>
 
   <footer>
-    &copy; 2025 ArabCraft - جميع الحقوق محفوظة
+    <p>جميع الحقوق محفوظة &copy; ArabCraft 2025</p>
   </footer>
 
 </body>
