@@ -63,20 +63,24 @@ nav a:hover {
   color: #ddd;
 }
 
-.btn {
+/* الأزرار */
+.btn,
+button {
   background-color: #00aaff;
-  color: #fff;
-  padding: 15px 25px;
+  color: white;
+  padding: 10px 20px;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
   text-decoration: none;
-  font-size: 18px;
-  transition: background 0.3s;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
   display: inline-block;
 }
 
-.btn:hover {
-  background-color: #0077aa;
+.btn:hover,
+button:hover {
+  background-color: #0077cc;
 }
 
 /* المميزات */
@@ -84,9 +88,9 @@ nav a:hover {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  gap: 20px;
   padding: 40px 20px;
   background-color: #111;
-  gap: 20px;
 }
 
 .feature {
@@ -108,6 +112,54 @@ nav a:hover {
   color: #ccc;
 }
 
+/* المتجر */
+.store {
+  background-color: #001a66;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.store h2 {
+  font-size: 32px;
+  color: #00aaff;
+  margin-bottom: 30px;
+}
+
+/* عناصر المنتج */
+.product {
+  background-color: #fff;
+  color: #003366;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  text-align: right;
+}
+
+.product h3 {
+  margin-bottom: 1em;
+  color: #005577;
+  font-size: 24px;
+}
+
+.product ul {
+  list-style: none;
+  padding: 0;
+}
+
+.product li {
+  background-color: #003366;
+  color: white;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.1em;
+}
+
 /* التذييل */
 footer {
   background-color: #001f3f;
@@ -120,176 +172,9 @@ footer {
 footer a {
   color: #00aaff;
   text-decoration: none;
-  margin-right: 10px;
+  margin: 0 10px;
 }
 
 footer a:hover {
   text-decoration: underline;
-}
- .store {
-  background-color: #3300ff;
-  padding: 2em;
-  text-align: center;
-}
-
-.store h2 {
-  font-size: 2em;
-  margin-bottom: 1em;
-}
-
-.product {
-  background: white;
-  margin: 1em auto;
-  padding: 1.5em;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  max-width: 600px;
-}
-
-.product h3 {
-  margin-bottom: 1em;
-  color: #005577;
-}
-
-.product ul {
-  list-style: none;
-  padding: 0;
-}
-
-.product li {
-  margin: 0.5em 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 1.1em;
-}
-
-.product button {
-  background-color: #00aaff;
-  color: rgb(18, 2, 97);
-  border: none;
-  padding: 0.5em 1em;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.product button:hover {
-  background-color: #002839;
-}
-.store {
-  padding: 2rem;
-  background-color: #2900cd;
-  text-align: center;
-}
-سسسسسسسسسسسسسسس
-.product {
-  margin-bottom: 2rem;
-}
-
-.product ul {
-  list-style: none;
-  padding: 0;
-}
-
-.product li {
-  margin: 1rem 0;
-}
-
-.btn {
-  background-color: #00aaff;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 8px;
-  text-decoration: none;
-  font-size: 16px;
-  display: inline-block;
-  transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-  background-color: #0077cc;
-}
-button {
-  background-color: #00aaff;
-  color: white;
-  border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 8px;
-  cursor: pointer;
-  font-size: 1rem;
-}
-
-button:hover {
-  background-color: #008fcc;
-}
-.product ul li {
-  background-color: #003366; /* الأزرق الغامق */
-  color: white;
-  padding: 10px 15px;
-  margin-bottom: 10px;
-  border-radius: 8px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.ip-port {
-  background-color: #1a1a2e;
-  padding: 40px 20px;
-  margin: 40px auto;
-  max-width: 600px;
-  border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0, 170, 255, 0.2);
-  text-align: right;
-}
-
-.ip-port h2 {
-  color: #00aaff;
-  margin-bottom: 20px;
-  font-size: 28px;
-}
-
-.ip-port form {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.input-group {
-  display: flex;
-  flex-direction: column;
-}
-
-.input-group label {
-  margin-bottom: 5px;
-  color: #ccc;
-  font-weight: bold;
-}
-
-.input-group input {
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  background-color: #333;
-  color: #fff;
-}
-
-.input-group input::placeholder {
-  color: #888;
-}
-
-.ip-port button {
-  background-color: #00aaff;
-  color: #fff;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 8px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.ip-port button:hover {
-  background-color: #0077aa;
 }
